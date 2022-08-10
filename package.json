@@ -2,7 +2,7 @@
   "name": "example-design-system",
   "version": "0.0.1",
   "description": "components liblary",
-  "main": "build/index.js",
+  "main": "src/index.js",
   "repository": "https://github.com/YarmolenkoD/example-design-system.git",
   "author": "Yarmolenko Daniil",
   "license": "MIT",
