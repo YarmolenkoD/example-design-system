@@ -1,0 +1,23 @@
+{
+  "name": "example-design-system",
+  "version": "0.0.1",
+  "description": "components liblary",
+  "main": "build/index.js",
+  "repository": "https://github.com/YarmolenkoD/example-design-system.git",
+  "author": "Yarmolenko Daniil",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d build",
+    "prepare": "yarn run build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.69.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
