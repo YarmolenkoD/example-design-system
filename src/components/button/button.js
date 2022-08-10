@@ -1,5 +1,11 @@
 import React from 'react'
 
-const Button = () => ''
+import { ButtonOpacity, Paragraph } from '../../utils/tags'
+
+const Button = () => {
+  return <ButtonOpacity>
+    <Paragraph>Hello</Paragraph>
+  </ButtonOpacity>
+}
 
 export default Button
