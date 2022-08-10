@@ -6,10 +6,7 @@
   "repository": "https://github.com/YarmolenkoD/example-design-system.git",
   "author": "Yarmolenko Daniil",
   "license": "MIT",
-  "scripts": {
-    "build": "babel src -d build",
-    "prepare": "yarn run build"
-  },
+  "scripts": {},
   "dependencies": {
     "react": "^18.2.0",
     "react-native": "^0.69.4"
